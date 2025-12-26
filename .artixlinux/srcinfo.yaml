@@ -19,7 +19,6 @@ pkgbase:
     - xlibre-xserver>=25.0
     - glibc
     - mesa
-    - libudev
     - libxext
     - libx11
     - libdrm

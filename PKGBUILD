@@ -15,7 +15,7 @@ conflicts=("${_pkgname}")
 provides=("${_pkgname}")
 source=("${url}/archive/refs/tags/xlibre-${_pkgname}-${pkgver}.tar.gz")
 groups=('xlibre-drivers')
-depends+=('mesa' 'libudev' 'libxext' 'libx11' 'libdrm')
+depends+=('mesa' 'libxext' 'libx11' 'libdrm')
 provides+=('xf86-video-vmware')   # for virtualbox-guest-utils / nous
 options=('!emptydirs')
 
