@@ -1,9 +1,9 @@
-# Maintainer: artist for Artix Linux
+# Maintainer: artist for Artix Linux and XLibre <artist@artixlinux.org>
 
 pkgname=xlibre-video-vmware
 _pkgname=xf86-video-vmware
 pkgver=25.0.0
-pkgrel=5
+pkgrel=4
 pkgdesc="XLibre fork of X.org vmware video driver"
 arch=(x86_64)
 license=('MIT AND X11')
@@ -15,7 +15,7 @@ conflicts=("${_pkgname}")
 provides=("${_pkgname}")
 source=("${url}/archive/refs/tags/xlibre-${_pkgname}-${pkgver}.tar.gz")
 groups=('xlibre-drivers')
-depends+=('mesa' 'libxext' 'libx11' 'libdrm')
+depends+=('mesa' 'libudev' 'libxext' 'libx11' 'libdrm')
 provides+=('xf86-video-vmware')   # for virtualbox-guest-utils / nous
 options=('!emptydirs')
 
