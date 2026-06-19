@@ -3,7 +3,7 @@
 pkgname=xlibre-video-vmware
 _pkgname=xf86-video-vmware
 pkgver=25.0.0
-pkgrel=8
+pkgrel=9
 pkgdesc="XLibre fork of X.org vmware video driver"
 arch=(x86_64 aarch64)
 license=('MIT AND X11')

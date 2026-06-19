@@ -1,10 +1,10 @@
 ---
-version: 25.0.0-8
+version: 25.0.0-9
 pkgbase:
   name: xlibre-video-vmware
   pkgdesc: XLibre fork of X.org vmware video driver
   pkgver: 25.0.0
-  pkgrel: 8
+  pkgrel: 9
   url: https://github.com/X11Libre/xf86-video-vmware
   arch:
     - x86_64
@@ -36,4 +36,4 @@ pkgbase:
     - 5aabf5932fe071c21f621a5bfa5bc93523cbd6ef10cef5f3ecf89bf0ea66bbb4
 pkgname:
   - name: xlibre-video-vmware
-# generated with artixpkg 0.37.4-1-any
+# generated with artixpkg 0.38.5-1-any
